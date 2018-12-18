@@ -26,7 +26,7 @@ var onConnectionLost MQTT.ConnectionLostHandler = func(client MQTT.Client, errms
 
 var (
 	serverAddrOpt = flag.String("s", "127.0.0.1", "MQTT server address")
-	clientIDOpt   = flag.String("i", "pub", "MQTT client ID")
+	clientIDOpt   = flag.String("i", "sub", "MQTT client ID")
 	topicOpt      = flag.String("t", "topic", "MQTT topic")
 )
 
